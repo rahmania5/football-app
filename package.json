@@ -1,0 +1,16 @@
+{
+  "name": "football-app",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "main.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-tools": "^8.4.3",
+    "web-push": "^3.4.4"
+  }
+}
